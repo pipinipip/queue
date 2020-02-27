@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45749847-64e7-405c-9a0d-e7a427065b0c" name="Default Changelist" comment="" />
+    <list default="true" id="45749847-64e7-405c-9a0d-e7a427065b0c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/pipinipip/printerqueue/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/pipinipip/printerqueue/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/pipinipip/printerqueue/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/pipinipip/printerqueue/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/pipinipip/printerqueue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/pipinipip/printerqueue/Queue.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y1aTPKMQktJu3PyYKppVpPJizG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -28,7 +37,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.QueueTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="me.pipinipip.Main" />
       <module name="kö" />
@@ -39,6 +48,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kö" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.pipinipip.printerqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.pipinipip.printerqueue" />
+      <option name="MAIN_CLASS_NAME" value="me.pipinipip.printerqueue.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kö" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.pipinipip.printerqueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.pipinipip.printerqueue" />
+      <option name="MAIN_CLASS_NAME" value="me.pipinipip.printerqueue.QueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.QueueTest" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,5 +98,18 @@
       <updated>1582112561079</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -9,6 +9,7 @@ package me.pipinipip.printerqueue;
  */
 public class LinkedList {
     Node first;
+    int size;
 
     /**
      * Constructor to create an empty list.
@@ -23,7 +24,14 @@ public class LinkedList {
      * @param newNode
      */
     public void addLast(Node newNode) {
-
+    size++;
+        for(Node node = first; node != null; node = node.getNext()) {
+            if(node.getNext() == null) {
+                node.next = newNode;
+                return;
+            }
+        }
+        first = newNode;
     }
 
     /**
@@ -32,7 +40,12 @@ public class LinkedList {
      * @return
      */
     public Node removeFirst() {
-        return null;
+        if(isEmpty()) throw new UnsupportedOperationException("Cannot remove from an empty list");
+        Node n = first;
+        first = first.getNext();
+        size--;
+
+        return n;
     }
 
     /**
@@ -42,7 +55,7 @@ public class LinkedList {
      * @return
      */
     public int size() {
-        return 0;
+        return size;
     }
 
     /**
